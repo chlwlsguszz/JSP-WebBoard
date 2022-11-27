@@ -1,0 +1,33 @@
+@CHARSET "UTF-8";
+
+table {
+	width: auto;
+	border-collapse: collapse;
+	text-align: center;
+}
+ 
+td,th {
+	font-size: 10pt;
+	height: 30px;
+	padding: 5px;
+}
+th {
+	background-color: #ffff20;
+	color: #000000;
+	font-family: Georgia;
+}
+
+tr td {
+	color: #000000;
+	background-color: #ffff80;
+}
+
+input {
+	height: 25px;
+	width:200px;
+}
+
+input[type="submit"],[type="reset"],[type="button"] {
+	height: 25px;
+	width:80px;
+}
